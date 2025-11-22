@@ -1,68 +1,89 @@
-# Ship Handling Calculator - Offline Mobile App
+# ⚓ Ship Handling Calculator - Offline Mobile App
 
-This repository contains the source code for an offline mobile app designed to calculate ship handling parameters. The app is built using React Native and Expo, and is intended for use by ship captains, navigators, and other maritime professionals to accurately calculate various handling parameters for ships.
+An offline-first mobile app for maritime professionals to calculate key ship handling parameters with precision. Designed for **ship captains, navigators**, and marine engineers, this app enables accurate calculations without needing internet connectivity.
 
-### [Download](https://expo.dev/@pharaohmak/ShipHandlingCalculator)
+---
 
-## Features
+## 🚀 Features
 
-- Offline functionality: The app is designed to work offline, allowing users to perform calculations even without internet connectivity.
-- Comprehensive calculations: The app includes a wide range of calculations related to ship handling, such as draft, trim, stability, turning circle, stopping distance, and more.
-- User-friendly interface: The app provides a user-friendly interface for inputting ship parameters, performing calculations, and viewing results. It may include intuitive UI elements, such as sliders, buttons, and forms, for easy interaction.
-- Customizable settings: The app allows users to customize various settings, such as units of measurement, calculation formulas, and display preferences, to suit their specific needs.
-- Accurate results: The app utilizes industry-standard formulas and algorithms to ensure accurate calculations for ship handling parameters. It may also provide graphical representations or visualizations of the results for better understanding.
-- Data persistence: The app includes features for saving and loading calculation data, allowing users to resume their work or access previous calculations even after closing the app.
+- **📴 Offline Functionality**  
+  Perform all calculations without an internet connection — ideal for sea operations.
 
-## Technologies Used
+- **📐 Comprehensive Ship Calculations**  
+  Includes modules for:
+  - Draft & Trim  
+  - Hydrostatic Stability  
+  - Turning Radius  
+  - Stopping Distance  
+  - And more...
 
-- React Native: The app is built using React Native, a popular JavaScript framework for building native mobile apps.
-- Expo: The app utilizes Expo, a set of tools and services for building, testing, and deploying React Native apps.
-- Calculation libraries: The app may utilize existing libraries or algorithms for performing complex calculations related to ship handling, such as hydrostatics, dynamics, and stability.
-- Data storage: If the app includes data persistence features, it may use local storage, AsyncStorage, or other data storage mechanisms provided by Expo or React Native to save and retrieve calculation data.
-- UI/UX design: The app may include UI/UX design principles and tools, such as Material Design, Human Interface Guidelines, or custom design components, to create a visually appealing and user-friendly interface.
+- **🎛️ User-Friendly Interface**  
+  Built with intuitive sliders, forms, and clean navigation to simplify input and result analysis.
 
-## Setup
+- **⚙️ Customizable Settings**  
+  Toggle units, change calculation methods, and tailor display settings to fit operational standards.
 
-To set up the ship handling calculator app locally, follow these steps:
+- **📊 Accurate & Visual Results**  
+  Uses industry-standard marine formulas with potential visualizations to aid interpretation.
 
-1. Clone the repository to your local machine using the following command:
-```
+- **💾 Data Persistence**  
+  Save and load previous calculations locally — your data is retained even after the app closes.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native** — Core framework for cross-platform mobile app development  
+- **Expo** — Simplified development, testing, and deployment workflow  
+- **AsyncStorage** — Offline storage to retain user data and calculations  
+- **Custom Algorithms** — Accurate marine calculations based on hydrostatics & dynamics  
+- **Material Design / HIG Principles** — Optimized UI/UX for both iOS and Android
+
+---
+
+## 🧪 Getting Started
+
+Follow the steps below to run the app locally:
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/pharaohmak/ship-handling-calculator.git
-```
-2. Navigate to the project directory:
-```
+
+# 2. Navigate to the project folder
 cd ship-handling-calculator
-```
-3. Install Expo globally if you haven't already:
-```
+
+# 3. Install Expo CLI (if not already installed)
 npm install -g expo-cli
-```
-4. Install any dependencies or libraries required for the app:
-```
+
+# 4. Install project dependencies
 npm install
-```
-5. Start the app using Expo:
-```
+
+# 5. Start the app
 expo start
 ```
-6. Follow the instructions to run the app on an emulator, simulator, or physical device.
 
-## Contributing
+## 🤝 Contributing
 
-If you would like to contribute to the project, please follow these steps:
+Contributions are welcome!
+To contribute:
+	1.	Fork this repository
+	2.	Create a feature branch: git checkout -b feature/your-feature-name
+	3.	Commit your changes: git commit -m 'Add your message here'
+	4.	Push to your fork: git push origin feature/your-feature-name
+	5.	Submit a pull request
 
-1. Fork the repository to your own GitHub account.
-2. Create a new branch from the `main` branch with a descriptive name for your changes.
-3. Make your changes to the code and test them thoroughly.
-4. Submit a pull request to the `main` branch of the original repository.
-5. Provide a clear description of the changes made and any relevant information for review.
+Please include clear descriptions and reference related issues (if any).
 
-## License
+⸻
 
-This ship handling calculator app is open source and available under the [MIT License](LICENSE).
+## 📄 License
 
-## Contact
+Distributed under the MIT License.
+Feel free to use and adapt this project for your own needs.
 
-For any inquiries or questions, please contact the project owner at [alchemist@sleepingpharaoh.com](mailto:alchemist@sleepingpharaoh.com).
+⸻
 
-Thank you for your interest in the Ship Handling Calculator App!
+## 📬 Contact
+
+For questions, feedback, or collaboration inquiries:
+📧 alchemist@sleepingpharaoh.com
